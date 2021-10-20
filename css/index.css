@@ -1,0 +1,53 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.div_fotos{
+    width: 750px;
+    background-color: rgb(207,225,242);
+    display: flex;
+    flex-direction: column;
+}
+
+.fotos_size{
+    width:150px;
+    height:150px;
+}
+
+.div_herramientas{
+    width: 750px;
+    height: 200px;
+    background-color: rgb(207,225,242);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos_size{
+    width:100px;
+    height:100px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.div_copyright{
+    width: 750px;
+    height: 35px;
+    background-color: rgb(15,112,183);
+    color: white;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
