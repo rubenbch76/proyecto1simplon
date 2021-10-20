@@ -4,6 +4,10 @@ div{
     align-items: center;
 }
 
+a:hover{
+    background-color: rgb(15,112,183);
+}
+
 section{
     display: flex;
     justify-content: center;
