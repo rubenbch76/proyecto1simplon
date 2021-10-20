@@ -10,16 +10,38 @@ section{
     align-items: center;   
 }
 
+.padding_banner{
+    padding-top: 15px;
+}
+
 .div_fotos{
     width: 750px;
     background-color: rgb(207,225,242);
+    margin-top: 10px;
+    padding-bottom: 30px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .fotos_size{
     width:150px;
     height:150px;
+}
+
+.texto_nombres{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.texto_definiciones{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+.estructura_fotostexto{
+    width: 375px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .div_herramientas{
