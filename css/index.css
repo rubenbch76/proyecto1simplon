@@ -4,8 +4,20 @@ div{
     align-items: center;
 }
 
-a:hover{
+/*a:hover{
     background-color: rgb(15,112,183);
+}*/
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;  
+}
+
+.padding_banner{
+    padding-top: 15px; 
 }
 
 section{
@@ -14,8 +26,8 @@ section{
     align-items: center;   
 }
 
-.padding_banner{
-    padding-top: 15px;
+.img_banner{
+    width: 100%;
 }
 
 .div_fotos{
@@ -61,6 +73,10 @@ section{
     width:100px;
     height:100px;
 }
+
+.efecto_blur:hover {filter: blur(2px);}
+
+.efecto_transparencia:hover {filter: opacity(.5);}
 
 footer{
     display: flex;
